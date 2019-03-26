@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BoilerPlateExample.Models;
 using BoilerPlateExample.Web.Views;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,8 @@ namespace BoilerPlateExample.Web.Controllers
         {
             _firstService = firstService;
         }
+
+        
 
         public async Task<ActionResult> Index()
         {
