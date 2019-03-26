@@ -15,6 +15,10 @@
     <RootNamespace>BoilerPlateExample</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Migrations\20190326104359_prva.cs" />
+    <Compile Remove="Migrations\20190326105317_add-migration prva.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\BoilerPlateExample.Core\BoilerPlateExample.Core.csproj" />
   </ItemGroup>
   <ItemGroup>

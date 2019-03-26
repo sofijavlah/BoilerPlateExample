@@ -25,7 +25,14 @@ namespace BoilerPlateExample.Web.Startup
                         url: "Home/About",
                         icon: "fa fa-info"
                         )
-                );
+                ).AddItem(
+                    new MenuItemDefinition(
+                        PageNames.Offices,
+                        L("Offices"),
+                        url: "Home/Offices",
+                        icon: "fa fa-offices"
+                        )
+                    );
         }
 
         private static ILocalizableString L(string name)

@@ -1,0 +1,24 @@
+﻿@using BoilerPlateExample.Models
+@model BoilerPlateExample.Web.Views.IndexViewModel
+
+@{
+    ViewBag.Title = "Offices";
+    ViewBag.ActiveMenu = "Offices";
+}
+
+<h2>@("Offices")</h2>
+
+<div class="row">
+    <div>
+        <ul class="list-group" id="OfficeList">
+            @foreach (var office in Model.Offices)
+            {
+                <li class="list-group-item">
+                    <h4 class="list-group-item-heading">@office.Description</h4>
+                    <div class="list-group-item-text">
+                    </div>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

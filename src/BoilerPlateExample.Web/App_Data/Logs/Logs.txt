@@ -1,0 +1,753 @@
+DEBUG 2019-03-26 09:32:53,162 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 09:32:53,179 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 09:32:53,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,230 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 09:32:53,339 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 09:32:53,385 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 09:32:53,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 09:32:53,521 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 09:32:53,524 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 09:32:53,634 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 09:32:53,662 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+INFO  2019-03-26 09:32:54,382 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 09:32:54,670 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 09:32:54,730 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 09:32:54,734 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.0308ms.
+INFO  2019-03-26 09:32:54,746 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 29 ms from ::1 IP address with succeed.
+INFO  2019-03-26 09:32:54,789 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-26 09:32:55,117 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 358.3914ms.
+INFO  2019-03-26 09:32:55,120 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 449.1671ms
+INFO  2019-03-26 09:32:55,135 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css  
+INFO  2019-03-26 09:32:55,135 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css  
+INFO  2019-03-26 09:32:55,135 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 755.175ms 200 text/html; charset=utf-8
+INFO  2019-03-26 09:32:55,136 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-paper/bootstrap.css  
+INFO  2019-03-26 09:32:55,136 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css  
+INFO  2019-03-26 09:32:55,137 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/main.css  
+INFO  2019-03-26 09:32:55,137 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css  
+INFO  2019-03-26 09:32:55,179 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\toastr\toastr.css'
+INFO  2019-03-26 09:32:55,179 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.css'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\sweetalert\dist\sweetalert.css'
+INFO  2019-03-26 09:32:55,179 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/main.css'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\css\main.css'
+INFO  2019-03-26 09:32:55,179 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2019-03-26 09:32:55,179 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2019-03-26 09:32:55,183 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.1212ms 200 text/css
+INFO  2019-03-26 09:32:55,183 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.8889ms 200 text/css
+INFO  2019-03-26 09:32:55,183 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.3143ms 200 text/css
+INFO  2019-03-26 09:32:55,183 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 46.5507ms 200 text/css
+INFO  2019-03-26 09:32:55,183 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.358ms 200 text/css
+INFO  2019-03-26 09:32:55,186 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-paper/bootstrap.css'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\bootstrap-paper\bootstrap.css'
+INFO  2019-03-26 09:32:55,186 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 49.837ms 200 text/css
+INFO  2019-03-26 09:32:55,189 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js  
+INFO  2019-03-26 09:32:55,189 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js  
+INFO  2019-03-26 09:32:55,189 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js  
+INFO  2019-03-26 09:32:55,190 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js  
+INFO  2019-03-26 09:32:55,190 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js  
+INFO  2019-03-26 09:32:55,190 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-03-26 09:32:55,190 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7643ms 200 application/javascript
+INFO  2019-03-26 09:32:55,191 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\json2\json2.js'
+INFO  2019-03-26 09:32:55,191 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.826ms 200 application/javascript
+INFO  2019-03-26 09:32:55,191 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-03-26 09:32:55,191 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4161ms 200 application/javascript
+INFO  2019-03-26 09:32:55,191 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-03-26 09:32:55,191 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5556ms 200 application/javascript
+INFO  2019-03-26 09:32:55,191 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-03-26 09:32:55,191 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1339ms 200 application/javascript
+INFO  2019-03-26 09:32:55,195 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js  
+INFO  2019-03-26 09:32:55,196 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js  
+INFO  2019-03-26 09:32:55,198 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js  
+INFO  2019-03-26 09:32:55,200 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert-dev.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js'
+INFO  2019-03-26 09:32:55,200 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.2753ms 200 application/javascript
+INFO  2019-03-26 09:32:55,203 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\toastr\toastr.js'
+INFO  2019-03-26 09:32:55,203 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.2323ms 200 application/javascript
+INFO  2019-03-26 09:32:55,203 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js  
+INFO  2019-03-26 09:32:55,205 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-03-26 09:32:55,205 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.6951ms 200 application/javascript
+INFO  2019-03-26 09:32:55,206 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\spin.js\spin.js'
+INFO  2019-03-26 09:32:55,206 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.8725ms 200 application/javascript
+INFO  2019-03-26 09:32:55,209 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js  
+INFO  2019-03-26 09:32:55,211 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2019-03-26 09:32:55,211 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2019-03-26 09:32:55,211 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-03-26 09:32:55,211 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4966ms 200 application/javascript
+INFO  2019-03-26 09:32:55,212 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-03-26 09:32:55,212 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2019-03-26 09:32:55,212 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4083ms 200 application/javascript
+INFO  2019-03-26 09:32:55,213 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2019-03-26 09:32:55,213 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2019-03-26 09:32:55,214 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-03-26 09:32:55,214 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1219ms 200 application/javascript
+INFO  2019-03-26 09:32:55,214 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-03-26 09:32:55,214 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1009ms 200 application/javascript
+INFO  2019-03-26 09:32:55,214 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-03-26 09:32:55,214 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7261ms 200 application/javascript
+INFO  2019-03-26 09:32:55,215 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-03-26 09:32:55,215 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.163ms 200 application/javascript
+INFO  2019-03-26 09:32:55,216 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2019-03-26 09:32:55,217 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636891895750710017  
+INFO  2019-03-26 09:32:55,218 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636891895750717181  
+INFO  2019-03-26 09:32:55,218 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-03-26 09:32:55,218 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1844ms 200 application/javascript
+INFO  2019-03-26 09:32:55,219 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/views/home/index.js  
+INFO  2019-03-26 09:32:55,220 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/views/home/index.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\js\views\home\index.js'
+INFO  2019-03-26 09:32:55,221 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.0607ms 200 application/javascript
+INFO  2019-03-26 09:32:55,237 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 09:32:55,241 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 09:32:55,266 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 09:32:55,274 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-03-26 09:32:55,274 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+INFO  2019-03-26 09:32:55,276 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2019-03-26 09:32:55,276 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1855ms 200 font/woff2
+INFO  2019-03-26 09:32:55,276 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2019-03-26 09:32:55,276 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.3749ms 200 image/png
+INFO  2019-03-26 09:32:55,295 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-26 09:32:55,318 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 23.6548ms.
+INFO  2019-03-26 09:32:55,322 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 09:32:55,322 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 81.1094ms
+INFO  2019-03-26 09:32:55,322 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 105.3797ms 200 application/x-javascript
+INFO  2019-03-26 09:32:55,337 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 70.9289ms.
+INFO  2019-03-26 09:32:55,337 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 09:32:55,337 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 99.9795ms
+INFO  2019-03-26 09:32:55,337 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.4177ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 09:32:55,406 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/favicon.ico  
+INFO  2019-03-26 09:32:55,408 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5444ms 404 
+INFO  2019-03-26 09:53:33,048 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=tr&returnUrl=/  
+INFO  2019-03-26 09:53:33,050 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2019-03-26 09:53:33,054 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (tr, /) - Validation state: Valid
+INFO  2019-03-26 09:53:33,059 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 4.7464ms.
+INFO  2019-03-26 09:53:33,062 [45   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2019-03-26 09:53:33,075 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 24.4338ms
+INFO  2019-03-26 09:53:33,075 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.6024ms 302 
+INFO  2019-03-26 09:53:33,079 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 09:53:33,081 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 09:53:33,081 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 09:53:33,081 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0083ms.
+INFO  2019-03-26 09:53:33,082 [44   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 0 ms from ::1 IP address with succeed.
+INFO  2019-03-26 09:53:33,085 [44   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-26 09:53:33,092 [44   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 10.696ms.
+INFO  2019-03-26 09:53:33,092 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 11.1972ms
+INFO  2019-03-26 09:53:33,092 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.8907ms 200 text/html; charset=utf-8
+INFO  2019-03-26 09:53:33,103 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636891908130926444  
+INFO  2019-03-26 09:53:33,103 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636891908130926571  
+INFO  2019-03-26 09:53:33,103 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 09:53:33,103 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 09:53:33,104 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 09:53:33,104 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-26 09:53:33,106 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.5586ms.
+INFO  2019-03-26 09:53:33,106 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.2694ms.
+INFO  2019-03-26 09:53:33,106 [47   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 09:53:33,106 [44   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 09:53:33,106 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 3.1758ms
+INFO  2019-03-26 09:53:33,106 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 3.0984ms
+INFO  2019-03-26 09:53:33,107 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.4771ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 09:53:33,107 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.7854ms 200 application/x-javascript
+INFO  2019-03-26 09:53:42,375 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpLocalization/ChangeCulture?cultureName=en&returnUrl=/  
+INFO  2019-03-26 09:53:42,375 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "ChangeCulture", controller = "AbpLocalization"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore)
+INFO  2019-03-26 09:53:42,376 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) with arguments (en, /) - Validation state: Valid
+INFO  2019-03-26 09:53:42,376 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.0329ms.
+INFO  2019-03-26 09:53:42,376 [45   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /.
+INFO  2019-03-26 09:53:42,376 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpLocalizationController.ChangeCulture (Abp.AspNetCore) in 0.4691ms
+INFO  2019-03-26 09:53:42,376 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.056ms 302 
+INFO  2019-03-26 09:53:42,379 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 09:53:42,379 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 09:53:42,379 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 09:53:42,379 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0044ms.
+INFO  2019-03-26 09:53:42,380 [45   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 0 ms from ::1 IP address with succeed.
+INFO  2019-03-26 09:53:42,380 [45   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-26 09:53:42,381 [45   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 1.1826ms.
+INFO  2019-03-26 09:53:42,381 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 1.553ms
+INFO  2019-03-26 09:53:42,381 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1684ms 200 text/html; charset=utf-8
+INFO  2019-03-26 09:53:42,391 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636891908223811946  
+INFO  2019-03-26 09:53:42,391 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 09:53:42,392 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-26 09:53:42,393 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636891908223812034  
+INFO  2019-03-26 09:53:42,393 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 09:53:42,393 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 09:53:42,395 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.8084ms.
+INFO  2019-03-26 09:53:42,395 [45   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 09:53:42,395 [45   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 3.934ms
+INFO  2019-03-26 09:53:42,395 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.6389ms 200 application/x-javascript
+INFO  2019-03-26 09:53:42,395 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.1073ms.
+INFO  2019-03-26 09:53:42,396 [47   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 09:53:42,396 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 2.6296ms
+INFO  2019-03-26 09:53:42,396 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.0521ms 200 application/x-javascript; charset=utf-8
+DEBUG 2019-03-26 11:41:08,864 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 11:41:08,879 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 11:41:08,925 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,927 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:08,930 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 11:41:09,027 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:41:09,075 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 11:41:09,099 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 11:41:09,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 11:41:09,196 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 11:41:09,293 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 11:41:09,321 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+INFO  2019-03-26 11:41:09,932 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 11:41:10,174 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 11:41:10,237 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 11:41:10,242 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1022ms.
+INFO  2019-03-26 11:41:10,253 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 31 ms from ::1 IP address with succeed.
+INFO  2019-03-26 11:41:10,304 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-26 11:41:10,608 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 341.1088ms.
+INFO  2019-03-26 11:41:10,611 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 435.27ms
+INFO  2019-03-26 11:41:10,625 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 694.9927ms 200 text/html; charset=utf-8
+INFO  2019-03-26 11:41:10,630 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css  
+INFO  2019-03-26 11:41:10,630 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css  
+INFO  2019-03-26 11:41:10,630 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/main.css  
+INFO  2019-03-26 11:41:10,630 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css  
+INFO  2019-03-26 11:41:10,630 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css  
+INFO  2019-03-26 11:41:10,631 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-paper/bootstrap.css  
+INFO  2019-03-26 11:41:10,652 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2019-03-26 11:41:10,652 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert.css was not modified
+INFO  2019-03-26 11:41:10,652 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/main.css was not modified
+INFO  2019-03-26 11:41:10,652 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2019-03-26 11:41:10,652 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2019-03-26 11:41:10,652 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-paper/bootstrap.css was not modified
+INFO  2019-03-26 11:41:10,656 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.6733ms 304 text/css
+INFO  2019-03-26 11:41:10,656 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 24.9437ms 304 text/css
+INFO  2019-03-26 11:41:10,656 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.6196ms 304 text/css
+INFO  2019-03-26 11:41:10,656 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.9356ms 304 text/css
+INFO  2019-03-26 11:41:10,656 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.2081ms 304 text/css
+INFO  2019-03-26 11:41:10,656 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.2806ms 304 text/css
+INFO  2019-03-26 11:41:10,660 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js  
+INFO  2019-03-26 11:41:10,661 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js  
+INFO  2019-03-26 11:41:10,662 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js  
+INFO  2019-03-26 11:41:10,662 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js  
+INFO  2019-03-26 11:41:10,662 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js  
+INFO  2019-03-26 11:41:10,662 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js  
+INFO  2019-03-26 11:41:10,677 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-03-26 11:41:10,677 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-03-26 11:41:10,677 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\json2\json2.js'
+INFO  2019-03-26 11:41:10,681 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.2535ms 200 application/javascript
+INFO  2019-03-26 11:41:10,681 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.9181ms 200 application/javascript
+INFO  2019-03-26 11:41:10,681 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.0303ms 200 application/javascript
+INFO  2019-03-26 11:41:10,683 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-03-26 11:41:10,683 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.8813ms 200 application/javascript
+INFO  2019-03-26 11:41:10,684 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-03-26 11:41:10,684 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 23.0148ms 200 application/javascript
+INFO  2019-03-26 11:41:10,685 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-03-26 11:41:10,685 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.2026ms 200 application/javascript
+INFO  2019-03-26 11:41:10,686 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js  
+INFO  2019-03-26 11:41:10,688 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\toastr\toastr.js'
+INFO  2019-03-26 11:41:10,688 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1109ms 200 application/javascript
+INFO  2019-03-26 11:41:10,692 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js  
+INFO  2019-03-26 11:41:10,693 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js  
+INFO  2019-03-26 11:41:10,694 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js  
+INFO  2019-03-26 11:41:10,695 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-03-26 11:41:10,695 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4293ms 200 application/javascript
+INFO  2019-03-26 11:41:10,695 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert-dev.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\sweetalert\dist\sweetalert-dev.js'
+INFO  2019-03-26 11:41:10,695 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4897ms 200 application/javascript
+INFO  2019-03-26 11:41:10,695 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\spin.js\spin.js'
+INFO  2019-03-26 11:41:10,695 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1642ms 200 application/javascript
+INFO  2019-03-26 11:41:10,698 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2019-03-26 11:41:10,700 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2019-03-26 11:41:10,700 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-03-26 11:41:10,700 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7007ms 200 application/javascript
+INFO  2019-03-26 11:41:10,701 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-03-26 11:41:10,701 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.45ms 200 application/javascript
+INFO  2019-03-26 11:41:10,701 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2019-03-26 11:41:10,701 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2019-03-26 11:41:10,702 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2019-03-26 11:41:10,703 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-03-26 11:41:10,703 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.201ms 200 application/javascript
+INFO  2019-03-26 11:41:10,703 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-03-26 11:41:10,703 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9922ms 200 application/javascript
+INFO  2019-03-26 11:41:10,704 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-03-26 11:41:10,704 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5528ms 200 application/javascript
+INFO  2019-03-26 11:41:10,708 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636891972705594902  
+INFO  2019-03-26 11:41:10,710 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2019-03-26 11:41:10,711 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-03-26 11:41:10,711 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.9514ms 200 application/javascript
+INFO  2019-03-26 11:41:10,713 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/views/home/index.js  
+INFO  2019-03-26 11:41:10,714 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636891972705602517  
+INFO  2019-03-26 11:41:10,715 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/views/home/index.js'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\js\views\home\index.js'
+INFO  2019-03-26 11:41:10,715 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7474ms 200 application/javascript
+INFO  2019-03-26 11:41:10,725 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+INFO  2019-03-26 11:41:10,725 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-03-26 11:41:10,726 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2019-03-26 11:41:10,726 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.7149ms 200 font/woff2
+INFO  2019-03-26 11:41:10,726 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'C:\Users\Bild324\Documents\GitHub\BoilerPlateExample\src\BoilerPlateExample.Web\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+INFO  2019-03-26 11:41:10,726 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.8975ms 200 image/png
+INFO  2019-03-26 11:41:10,734 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 11:41:10,738 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 11:41:10,763 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 11:41:10,785 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-26 11:41:10,814 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 28.5264ms.
+INFO  2019-03-26 11:41:10,818 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 11:41:10,818 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 80.0252ms
+INFO  2019-03-26 11:41:10,818 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 109.6743ms 200 application/x-javascript
+INFO  2019-03-26 11:41:10,871 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 107.4214ms.
+INFO  2019-03-26 11:41:10,871 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 11:41:10,871 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 136.4905ms
+INFO  2019-03-26 11:41:10,871 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 157.3166ms 200 application/x-javascript; charset=utf-8
+DEBUG 2019-03-26 11:55:57,819 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 11:55:57,835 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 11:55:57,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:57,886 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 11:55:57,983 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 11:55:58,032 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 11:55:58,055 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 11:55:58,148 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 11:55:58,151 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 11:55:58,250 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 11:55:58,278 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes define auto mapping attributes
+INFO  2019-03-26 11:55:58,967 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 11:55:59,206 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 11:55:59,268 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 11:55:59,272 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.0577ms.
+INFO  2019-03-26 11:55:59,284 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 31 ms from ::1 IP address with succeed.
+INFO  2019-03-26 11:55:59,333 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-26 11:55:59,629 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 331.8001ms.
+INFO  2019-03-26 11:55:59,632 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 424.5155ms
+INFO  2019-03-26 11:55:59,645 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 679.389ms 200 text/html; charset=utf-8
+INFO  2019-03-26 11:55:59,654 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636891981595804789  
+INFO  2019-03-26 11:55:59,654 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636891981595797451  
+INFO  2019-03-26 11:55:59,675 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 11:55:59,678 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 11:55:59,704 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 11:55:59,726 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-26 11:55:59,752 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 26.0134ms.
+INFO  2019-03-26 11:55:59,755 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 11:55:59,756 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 77.7358ms
+INFO  2019-03-26 11:55:59,756 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.9943ms 200 application/x-javascript
+INFO  2019-03-26 11:55:59,804 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 100.4926ms.
+INFO  2019-03-26 11:55:59,805 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 11:55:59,805 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 130.6574ms
+INFO  2019-03-26 11:55:59,806 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 151.778ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 11:56:06,682 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 11:56:06,684 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 11:56:06,684 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 11:56:06,684 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0568ms.
+INFO  2019-03-26 11:56:06,685 [9    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 0 ms from ::1 IP address with succeed.
+INFO  2019-03-26 11:56:06,686 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+INFO  2019-03-26 11:56:06,691 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 6.458ms.
+INFO  2019-03-26 11:56:06,692 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 8.3471ms
+INFO  2019-03-26 11:56:06,692 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.2793ms 200 text/html; charset=utf-8
+INFO  2019-03-26 11:56:06,725 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636891981666916507  
+INFO  2019-03-26 11:56:06,725 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636891981666916335  
+INFO  2019-03-26 11:56:06,725 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 11:56:06,725 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 11:56:06,726 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 11:56:06,727 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+INFO  2019-03-26 11:56:06,730 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 4.6136ms.
+INFO  2019-03-26 11:56:06,731 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 11:56:06,731 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 5.6821ms
+INFO  2019-03-26 11:56:06,731 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.2142ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 11:56:06,732 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 5.1961ms.
+INFO  2019-03-26 11:56:06,732 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 11:56:06,732 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 7.0417ms
+INFO  2019-03-26 11:56:06,732 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.6219ms 200 application/x-javascript
+DEBUG 2019-03-26 14:46:41,854 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 14:46:41,870 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 14:46:41,915 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,917 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,918 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:41,920 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 14:46:42,017 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:46:42,065 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 14:46:42,088 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 14:46:42,180 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 14:46:42,183 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 14:46:42,277 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 14:46:42,304 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-26 14:46:42,304 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerPlateExample.Dto.OfficeDto
+INFO  2019-03-26 14:46:42,974 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 14:46:43,247 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 14:46:43,311 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 14:46:43,315 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1067ms.
+INFO  2019-03-26 14:46:43,326 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 31 ms from ::1 IP address with succeed.
+INFO  2019-03-26 14:46:43,375 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-03-26 14:46:43,562 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:46:43,664 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 325.3474ms.
+INFO  2019-03-26 14:46:43,667 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 418.7294ms
+INFO  2019-03-26 14:46:43,682 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 709.8851ms 200 text/html; charset=utf-8
+INFO  2019-03-26 14:46:43,684 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-paper/bootstrap.css  
+INFO  2019-03-26 14:46:43,684 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css  
+INFO  2019-03-26 14:46:43,684 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css  
+INFO  2019-03-26 14:46:43,685 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css  
+INFO  2019-03-26 14:46:43,685 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css  
+INFO  2019-03-26 14:46:43,685 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/main.css  
+INFO  2019-03-26 14:46:43,718 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert.css was not modified
+INFO  2019-03-26 14:46:43,718 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2019-03-26 14:46:43,718 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-paper/bootstrap.css was not modified
+INFO  2019-03-26 14:46:43,718 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2019-03-26 14:46:43,718 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2019-03-26 14:46:43,718 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/main.css was not modified
+INFO  2019-03-26 14:46:43,721 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.4347ms 304 text/css
+INFO  2019-03-26 14:46:43,721 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.8604ms 304 text/css
+INFO  2019-03-26 14:46:43,721 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.3621ms 304 text/css
+INFO  2019-03-26 14:46:43,721 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.8346ms 304 text/css
+INFO  2019-03-26 14:46:43,721 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.3526ms 304 text/css
+INFO  2019-03-26 14:46:43,721 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.984ms 304 text/css
+INFO  2019-03-26 14:46:43,727 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js  
+INFO  2019-03-26 14:46:43,727 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js  
+INFO  2019-03-26 14:46:43,727 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js  
+INFO  2019-03-26 14:46:43,727 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js  
+INFO  2019-03-26 14:46:43,727 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+INFO  2019-03-26 14:46:43,727 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/blockUI/jquery.blockUI.js was not modified
+INFO  2019-03-26 14:46:43,727 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/json2/json2.js was not modified
+INFO  2019-03-26 14:46:43,727 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3716ms 304 application/javascript
+INFO  2019-03-26 14:46:43,727 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3949ms 304 application/javascript
+INFO  2019-03-26 14:46:43,727 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.371ms 304 application/javascript
+INFO  2019-03-26 14:46:43,727 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery/dist/jquery.js was not modified
+INFO  2019-03-26 14:46:43,727 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5232ms 304 application/javascript
+INFO  2019-03-26 14:46:43,727 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js  
+INFO  2019-03-26 14:46:43,727 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/moment/min/moment-with-locales.js was not modified
+INFO  2019-03-26 14:46:43,727 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js  
+INFO  2019-03-26 14:46:43,727 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.225ms 304 application/javascript
+INFO  2019-03-26 14:46:43,728 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+INFO  2019-03-26 14:46:43,728 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2956ms 304 application/javascript
+INFO  2019-03-26 14:46:43,731 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js  
+INFO  2019-03-26 14:46:43,731 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.js was not modified
+INFO  2019-03-26 14:46:43,732 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.333ms 304 application/javascript
+INFO  2019-03-26 14:46:43,732 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js  
+INFO  2019-03-26 14:46:43,732 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js  
+INFO  2019-03-26 14:46:43,733 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2019-03-26 14:46:43,733 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert-dev.js was not modified
+INFO  2019-03-26 14:46:43,733 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.5071ms 304 application/javascript
+INFO  2019-03-26 14:46:43,733 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4687ms 304 application/javascript
+INFO  2019-03-26 14:46:43,733 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js  
+INFO  2019-03-26 14:46:43,733 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/spin.js was not modified
+INFO  2019-03-26 14:46:43,733 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2201ms 304 application/javascript
+INFO  2019-03-26 14:46:43,733 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js  
+INFO  2019-03-26 14:46:43,733 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/jquery.spin.js was not modified
+INFO  2019-03-26 14:46:43,733 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1854ms 304 application/javascript
+INFO  2019-03-26 14:46:43,735 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js  
+INFO  2019-03-26 14:46:43,735 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2019-03-26 14:46:43,736 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4192ms 304 application/javascript
+INFO  2019-03-26 14:46:43,738 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js  
+INFO  2019-03-26 14:46:43,738 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2019-03-26 14:46:43,738 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.4587ms 304 application/javascript
+INFO  2019-03-26 14:46:43,739 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js  
+INFO  2019-03-26 14:46:43,740 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/views/home/index.js  
+INFO  2019-03-26 14:46:43,740 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/views/home/index.js was not modified
+INFO  2019-03-26 14:46:43,740 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3202ms 304 application/javascript
+INFO  2019-03-26 14:46:43,740 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js  
+INFO  2019-03-26 14:46:43,740 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2019-03-26 14:46:43,741 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2019-03-26 14:46:43,741 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.5997ms 304 application/javascript
+INFO  2019-03-26 14:46:43,741 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.504ms 304 application/javascript
+INFO  2019-03-26 14:46:43,743 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636892084036191864  
+INFO  2019-03-26 14:46:43,743 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js  
+INFO  2019-03-26 14:46:43,743 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2019-03-26 14:46:43,743 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2896ms 304 application/javascript
+INFO  2019-03-26 14:46:43,748 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636892084036198940  
+INFO  2019-03-26 14:46:43,756 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-03-26 14:46:43,756 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+INFO  2019-03-26 14:46:43,756 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2019-03-26 14:46:43,756 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/fonts/fontawesome-webfont.woff2 was not modified
+INFO  2019-03-26 14:46:43,756 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2774ms 304 image/png
+INFO  2019-03-26 14:46:43,756 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2943ms 304 font/woff2
+INFO  2019-03-26 14:46:43,767 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 14:46:43,775 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 14:46:43,795 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 14:46:43,817 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+WARN  2019-03-26 14:46:43,848 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:46:43,876 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 58.9336ms.
+INFO  2019-03-26 14:46:43,882 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 14:46:43,884 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 108.311ms
+INFO  2019-03-26 14:46:43,884 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 140.9499ms 200 application/x-javascript
+INFO  2019-03-26 14:46:43,901 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 105.8249ms.
+INFO  2019-03-26 14:46:43,901 [13   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:46:43,902 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 135.5365ms
+INFO  2019-03-26 14:46:43,902 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 154.3036ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:46:45,328 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:46:45,330 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7468ms 404 
+INFO  2019-03-26 14:46:45,413 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:46:45,414 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3023ms 404 
+INFO  2019-03-26 14:46:50,429 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:46:50,429 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2083ms 404 
+INFO  2019-03-26 14:46:52,330 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 14:46:52,331 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 14:46:52,332 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 14:46:52,332 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0084ms.
+INFO  2019-03-26 14:46:52,332 [11   ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 0 ms from ::1 IP address with succeed.
+INFO  2019-03-26 14:46:52,333 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-03-26 14:46:52,334 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:46:52,334 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 2.6859ms.
+INFO  2019-03-26 14:46:52,334 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 3.1875ms
+INFO  2019-03-26 14:46:52,334 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.2706ms 200 text/html; charset=utf-8
+INFO  2019-03-26 14:46:52,370 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636892084123347852  
+INFO  2019-03-26 14:46:52,370 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636892084123347738  
+INFO  2019-03-26 14:46:52,371 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 14:46:52,371 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 14:46:52,372 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 14:46:52,373 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+WARN  2019-03-26 14:46:52,374 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:46:52,375 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.3497ms.
+INFO  2019-03-26 14:46:52,375 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 3.2702ms.
+INFO  2019-03-26 14:46:52,375 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:46:52,375 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 14:46:52,375 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 4.0681ms
+INFO  2019-03-26 14:46:52,375 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.144ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:46:52,376 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 4.1774ms
+INFO  2019-03-26 14:46:52,376 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.1622ms 200 application/x-javascript
+INFO  2019-03-26 14:46:53,881 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Home/About  
+INFO  2019-03-26 14:46:53,882 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "About", controller = "Home", area = ""}. Executing action BoilerPlateExample.Web.Controllers.HomeController.About (BoilerPlateExample.Web)
+INFO  2019-03-26 14:46:53,883 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.About (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 14:46:53,883 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.About (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1061ms.
+INFO  2019-03-26 14:46:53,883 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.About is executed by an anonymous user in 0 ms from ::1 IP address with succeed.
+INFO  2019-03-26 14:46:53,884 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view About.
+WARN  2019-03-26 14:46:53,887 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:46:53,888 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view About executed in 4.9154ms.
+INFO  2019-03-26 14:46:53,888 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.About (BoilerPlateExample.Web) in 5.4452ms
+INFO  2019-03-26 14:46:53,888 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.7284ms 200 text/html; charset=utf-8
+INFO  2019-03-26 14:46:53,897 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636892084138881932  
+INFO  2019-03-26 14:46:53,897 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636892084138881838  
+INFO  2019-03-26 14:46:53,897 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 14:46:53,897 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 14:46:53,897 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 14:46:53,898 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+WARN  2019-03-26 14:46:53,899 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:46:53,900 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.1483ms.
+INFO  2019-03-26 14:46:53,900 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:46:53,900 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 2.7483ms
+INFO  2019-03-26 14:46:53,900 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.2669ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:46:53,900 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 2.2013ms.
+INFO  2019-03-26 14:46:53,900 [15   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 14:46:53,900 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.7046ms
+INFO  2019-03-26 14:46:53,900 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.3371ms 200 application/x-javascript
+INFO  2019-03-26 14:46:57,088 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:46:57,088 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2716ms 404 
+INFO  2019-03-26 14:46:57,169 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:46:57,170 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.1858ms 404 
+DEBUG 2019-03-26 14:56:02,120 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 14:56:02,136 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 14:56:02,181 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,183 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,184 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,186 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 14:56:02,283 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 14:56:02,331 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 14:56:02,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 14:56:02,447 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 14:56:02,450 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 14:56:02,548 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 14:56:02,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-26 14:56:02,575 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerPlateExample.Dto.OfficeDto
+INFO  2019-03-26 14:56:03,204 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 14:56:03,488 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 14:56:03,549 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 14:56:03,554 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.0188ms.
+INFO  2019-03-26 14:56:03,565 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 30 ms from ::1 IP address with succeed.
+INFO  2019-03-26 14:56:03,612 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-03-26 14:56:03,798 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:56:03,937 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 359.0486ms.
+INFO  2019-03-26 14:56:03,939 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 449.792ms
+INFO  2019-03-26 14:56:03,955 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 752.0238ms 200 text/html; charset=utf-8
+INFO  2019-03-26 14:56:03,962 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636892089638573458  
+INFO  2019-03-26 14:56:03,963 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636892089638566066  
+INFO  2019-03-26 14:56:03,982 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 14:56:03,986 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 14:56:04,010 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 14:56:04,033 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+WARN  2019-03-26 14:56:04,063 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 14:56:04,087 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 54.1469ms.
+INFO  2019-03-26 14:56:04,090 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 14:56:04,091 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 105.4832ms
+INFO  2019-03-26 14:56:04,092 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.6836ms 200 application/x-javascript
+INFO  2019-03-26 14:56:04,106 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 96.0787ms.
+INFO  2019-03-26 14:56:04,106 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:56:04,107 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 125.0527ms
+INFO  2019-03-26 14:56:04,107 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 145.0599ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 14:56:05,408 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:56:05,411 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.0889ms 404 
+INFO  2019-03-26 14:56:05,491 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:56:05,492 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2191ms 404 
+INFO  2019-03-26 14:56:10,505 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:56:10,505 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2931ms 404 
+INFO  2019-03-26 14:56:40,519 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:56:40,519 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3056ms 404 
+INFO  2019-03-26 14:57:40,536 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 14:57:40,536 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2714ms 404 
+DEBUG 2019-03-26 15:08:31,903 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 15:08:31,918 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 15:08:31,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:31,968 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 15:08:32,066 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:08:32,117 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 15:08:32,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 15:08:32,233 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 15:08:32,236 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 15:08:32,330 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 15:08:32,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-26 15:08:32,358 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerPlateExample.Dto.OfficeDto
+INFO  2019-03-26 15:08:33,035 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 15:08:33,424 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 15:08:33,488 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 15:08:33,492 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1843ms.
+INFO  2019-03-26 15:08:33,503 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 30 ms from ::1 IP address with succeed.
+INFO  2019-03-26 15:08:33,551 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-03-26 15:08:33,749 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 15:08:33,878 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 361.9936ms.
+INFO  2019-03-26 15:08:33,881 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 454.9731ms
+INFO  2019-03-26 15:08:33,896 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 863.8387ms 200 text/html; charset=utf-8
+INFO  2019-03-26 15:08:33,947 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636892097138204826  
+INFO  2019-03-26 15:08:33,948 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636892097138195428  
+INFO  2019-03-26 15:08:33,976 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 15:08:33,979 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 15:08:34,004 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 15:08:34,027 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+WARN  2019-03-26 15:08:34,055 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 15:08:34,078 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 50.7855ms.
+INFO  2019-03-26 15:08:34,081 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 15:08:34,082 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 103.1622ms
+INFO  2019-03-26 15:08:34,082 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.7619ms 200 application/x-javascript
+INFO  2019-03-26 15:08:34,100 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 95.2901ms.
+INFO  2019-03-26 15:08:34,100 [6    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 15:08:34,101 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 124.467ms
+INFO  2019-03-26 15:08:34,101 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 153.173ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 15:08:35,551 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 15:08:35,554 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.814ms 404 
+INFO  2019-03-26 15:08:35,633 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 15:08:35,633 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2867ms 404 
+INFO  2019-03-26 15:08:40,652 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 15:08:40,652 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2732ms 404 
+DEBUG 2019-03-26 15:53:27,616 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 15:53:27,632 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 15:53:27,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,682 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 15:53:27,778 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:53:27,827 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 15:53:27,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 15:53:27,944 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 15:53:27,947 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 15:53:28,041 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 15:53:28,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-26 15:53:28,069 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerPlateExample.Dto.OfficeDto
+INFO  2019-03-26 15:53:28,730 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 15:53:29,114 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 15:53:29,178 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 15:53:29,183 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.1708ms.
+INFO  2019-03-26 15:53:29,194 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 31 ms from ::1 IP address with succeed.
+INFO  2019-03-26 15:53:29,245 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-03-26 15:53:29,454 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 15:53:29,569 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 360.9173ms.
+INFO  2019-03-26 15:53:29,572 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 456.8896ms
+INFO  2019-03-26 15:53:29,590 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 862.3282ms 200 text/html; charset=utf-8
+INFO  2019-03-26 15:53:29,594 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636892124095210498  
+INFO  2019-03-26 15:53:29,596 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636892124095217706  
+INFO  2019-03-26 15:53:29,618 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 15:53:29,621 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 15:53:29,649 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 15:53:29,672 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+WARN  2019-03-26 15:53:29,701 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 15:53:29,724 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 52.1172ms.
+INFO  2019-03-26 15:53:29,727 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 15:53:29,728 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 106.8121ms
+INFO  2019-03-26 15:53:29,728 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.0018ms 200 application/x-javascript
+INFO  2019-03-26 15:53:29,748 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 99.035ms.
+INFO  2019-03-26 15:53:29,748 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 15:53:29,749 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 130.3985ms
+INFO  2019-03-26 15:53:29,749 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 153.1276ms 200 application/x-javascript; charset=utf-8
+INFO  2019-03-26 15:53:31,251 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 15:53:31,255 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1806ms 404 
+INFO  2019-03-26 15:53:31,332 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 15:53:31,333 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.3527ms 404 
+INFO  2019-03-26 15:53:36,345 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 15:53:36,345 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2372ms 404 
+INFO  2019-03-26 15:54:06,360 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Offices  
+INFO  2019-03-26 15:54:06,360 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 0.2366ms 404 
+DEBUG 2019-03-26 15:54:58,367 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-03-26 15:54:58,382 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2019-03-26 15:54:58,426 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.Web.Startup.BoilerPlateExampleWebModule, BoilerPlateExample.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,428 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleApplicationModule, BoilerPlateExample.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.BoilerPlateExampleCoreModule, BoilerPlateExample.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleEntityFrameworkCoreModule, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,429 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,430 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,432 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2019-03-26 15:54:58,530 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BoilerPlateExample.EntityFrameworkCore.BoilerPlateExampleDbContext, BoilerPlateExample.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-03-26 15:54:58,580 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2019-03-26 15:54:58,605 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-03-26 15:54:58,696 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerPlateExample
+DEBUG 2019-03-26 15:54:58,699 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-03-26 15:54:58,795 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-03-26 15:54:58,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2019-03-26 15:54:58,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerPlateExample.Dto.OfficeDto
+INFO  2019-03-26 15:54:59,502 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-03-26 15:54:59,882 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web)
+INFO  2019-03-26 15:54:59,943 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) - Validation state: Valid
+INFO  2019-03-26 15:54:59,947 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.001ms.
+INFO  2019-03-26 15:54:59,958 [6    ] Abp.Auditing.SimpleLogAuditingStore      - AUDIT LOG: BoilerPlateExample.Web.Controllers.HomeController.Index is executed by an anonymous user in 30 ms from ::1 IP address with succeed.
+INFO  2019-03-26 15:55:00,007 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+WARN  2019-03-26 15:55:00,202 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 15:55:00,306 [6    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 334.5042ms.
+INFO  2019-03-26 15:55:00,308 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action BoilerPlateExample.Web.Controllers.HomeController.Index (BoilerPlateExample.Web) in 424.8971ms
+INFO  2019-03-26 15:55:00,326 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 826.3686ms 200 text/html; charset=utf-8
+INFO  2019-03-26 15:55:00,332 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636892125002598492  
+INFO  2019-03-26 15:55:00,332 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636892125002605711  
+INFO  2019-03-26 15:55:00,354 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2019-03-26 15:55:00,357 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2019-03-26 15:55:00,383 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments (, False) - Validation state: Valid
+INFO  2019-03-26 15:55:00,408 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - Validation state: Valid
+WARN  2019-03-26 15:55:00,434 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'OfficeList' in localization source 'BoilerPlateExample'!
+INFO  2019-03-26 15:55:00,457 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 49.1776ms.
+INFO  2019-03-26 15:55:00,460 [7    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-03-26 15:55:00,461 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 103.8164ms
+INFO  2019-03-26 15:55:00,461 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 128.7514ms 200 application/x-javascript
+INFO  2019-03-26 15:55:00,477 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 94.1944ms.
+INFO  2019-03-26 15:55:00,478 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-03-26 15:55:00,478 [8    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 124.4639ms
+INFO  2019-03-26 15:55:00,478 [8    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 146.3237ms 200 application/x-javascript; charset=utf-8

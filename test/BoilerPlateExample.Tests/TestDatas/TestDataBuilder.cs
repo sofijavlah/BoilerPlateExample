@@ -1,4 +1,7 @@
+using System.ComponentModel;
+using System.Threading.Tasks;
 using BoilerPlateExample.EntityFrameworkCore;
+using BoilerPlateExample.Models;
 
 namespace BoilerPlateExample.Tests.TestDatas
 {
@@ -14,6 +17,13 @@ namespace BoilerPlateExample.Tests.TestDatas
         public void Build()
         {
             //create test data here...
+
+            _context.Offices.AddRange(
+                new Office{Description = "Marketing"},
+                new Office{Description = "HR"});
+
+
+
         }
     }
 }
