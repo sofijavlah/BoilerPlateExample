@@ -4,6 +4,6 @@
     {
         public const string Home = "Home";
         public const string About = "About";
-        public const string Offices = "Offices";
+        //public const string Offices = "Offices";
     }
 }

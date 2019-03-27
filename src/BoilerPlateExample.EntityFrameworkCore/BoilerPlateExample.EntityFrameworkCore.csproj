@@ -15,8 +15,13 @@
     <RootNamespace>BoilerPlateExample</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Migrations\20181015085310_Upgraded_To_ABP_v3_9_0.cs" />
     <Compile Remove="Migrations\20190326104359_prva.cs" />
     <Compile Remove="Migrations\20190326105317_add-migration prva.cs" />
+    <Compile Remove="Migrations\20190326105355_prva.cs" />
+    <Compile Remove="Migrations\20190327125613_prvi.cs" />
+    <Compile Remove="Migrations\20190327130152_prva.cs" />
+    <Compile Remove="Migrations\20190327130346_prva.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BoilerPlateExample.Core\BoilerPlateExample.Core.csproj" />

@@ -8,13 +8,8 @@ using BoilerPlateExample.Models;
 namespace BoilerPlateExample.Dto
 {
     [AutoMapFrom(typeof(Office))]
-    public class OfficeDto  // : EntityDto (za mapiranje id-ja)
+    public class OfficeDto : EntityDto //(za mapiranje id-ja)
     {
-        /// <summary>
-        /// Id of the entity.
-        /// </summary>
-        public long Id { get; set; }
-
         /// <summary>
         /// Gets or sets the name of the office.
         /// </summary>
@@ -22,6 +17,7 @@ namespace BoilerPlateExample.Dto
         /// The name of the office.
         /// </value>
         public string Description { get; set; }
-        
+
+        public List<EmployeeDto> Employees = new List<EmployeeDto>();
     }
 }

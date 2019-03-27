@@ -1,0 +1,16 @@
+﻿@using BoilerPlateExample.Models
+@using Microsoft.EntityFrameworkCore
+@model BoilerPlateExample.Dto.OfficeListDto
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+@foreach (var office in Model.Offices)
+{
+    <h1>@office.Id</h1>
+    <h2>@office.Description</h2>
+}
+
+

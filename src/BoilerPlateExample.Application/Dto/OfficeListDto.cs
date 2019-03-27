@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BoilerPlateExample.Dto;
 
-namespace BoilerPlateExample.Web.Views
+namespace BoilerPlateExample.Dto
 {
-    public class IndexViewModel
+    public class OfficeListDto
     {
         public IReadOnlyList<OfficeDto> Offices { get; }
 
-        public IndexViewModel(IReadOnlyList<OfficeDto> offices)
+        public OfficeListDto(IReadOnlyList<OfficeDto> offices)
         {
             Offices = offices;
         }

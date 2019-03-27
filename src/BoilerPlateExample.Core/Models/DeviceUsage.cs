@@ -1,22 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Abp.Domain.Entities;
 
 namespace BoilerPlateExample.Models
 {
     /// <summary>
     /// 
     /// </summary>
-    public class DeviceUsage
+    public class DeviceUsage : Entity
     {
-        /// <summary>
-        /// Gets or sets the identifier.
-        /// </summary>
-        /// <value>
-        /// The identifier.
-        /// </value>
-        public long Id { get; set; }
-
         /// <summary>
         /// Gets or sets from.
         /// </summary>

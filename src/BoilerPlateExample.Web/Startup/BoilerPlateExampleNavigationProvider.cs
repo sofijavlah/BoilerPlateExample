@@ -27,11 +27,29 @@ namespace BoilerPlateExample.Web.Startup
                         )
                 ).AddItem(
                     new MenuItemDefinition(
-                        PageNames.Offices,
-                        L("Offices"),
-                        url: "Home/Offices",
+                        "Office",
+                        L("Office"),
+                        url: "Office",
                         icon: "fa fa-offices"
-                        )
+                        ).AddItem(
+                        new MenuItemDefinition(
+                            "Office",
+                            L("Office By Id"),
+                            url: "Office/GetOffice",
+                            icon: "fa fa-offices"
+                        )).AddItem(
+                        new MenuItemDefinition(
+                            "Office",
+                            L("Office List"),
+                            url: "Office/GetOffices",
+                            icon: "fa fa-offices"
+                        )).AddItem(
+                        new MenuItemDefinition(
+                            "Office",
+                            L("Create Office"),
+                            url: "Office/CreateOffice",
+                            icon: "fa fa-offices"
+                        ))
                     );
         }
 

@@ -2,22 +2,15 @@
 using System.Text;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
+using Abp.Domain.Entities;
 
 namespace BoilerPlateExample.Models
 {
     /// <summary>
     /// Device model class
     /// </summary>
-    public class Device
+    public class Device : Entity
     {
-        /// <summary>
-        /// Gets or sets the identifier.
-        /// </summary>
-        /// <value>
-        /// The identifier.
-        /// </value>
-        public long Id { get; set; }
-
         /// <summary>
         /// Gets or sets the name.
         /// </summary>
@@ -32,7 +25,7 @@ namespace BoilerPlateExample.Models
         /// <value>
         /// The employee identifier.
         /// </value>
-        public long EmployeeId { get; set; }
+        public int EmployeeId { get; set; }
 
         /// <summary>
         /// Gets or sets the employee.

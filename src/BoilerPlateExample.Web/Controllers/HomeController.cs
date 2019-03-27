@@ -13,5 +13,6 @@ namespace BoilerPlateExample.Web.Controllers
         {
             return View();
         }
+        
     }
 }

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BoilerPlateExample.Migrations
 {
-    public partial class prva : Migration
+    public partial class first : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -12,7 +12,7 @@ namespace BoilerPlateExample.Migrations
                 name: "Offices",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Description = table.Column<string>(nullable: true)
                 },
@@ -25,11 +25,11 @@ namespace BoilerPlateExample.Migrations
                 name: "Employees",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     FirstName = table.Column<string>(nullable: true),
                     LastName = table.Column<string>(nullable: true),
-                    OfficeId = table.Column<long>(nullable: false)
+                    OfficeId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -46,10 +46,10 @@ namespace BoilerPlateExample.Migrations
                 name: "Devices",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
-                    EmployeeId = table.Column<long>(nullable: false)
+                    EmployeeId = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -66,12 +66,12 @@ namespace BoilerPlateExample.Migrations
                 name: "DeviceUsages",
                 columns: table => new
                 {
-                    Id = table.Column<long>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     From = table.Column<DateTime>(nullable: false),
                     To = table.Column<DateTime>(nullable: true),
-                    EmployeeId = table.Column<long>(nullable: true),
-                    DeviceId = table.Column<long>(nullable: true)
+                    EmployeeId = table.Column<int>(nullable: true),
+                    DeviceId = table.Column<int>(nullable: true)
                 },
                 constraints: table =>
                 {

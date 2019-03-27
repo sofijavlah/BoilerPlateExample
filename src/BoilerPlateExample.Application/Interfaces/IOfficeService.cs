@@ -8,8 +8,12 @@ using BoilerPlateExample.Models;
 
 namespace BoilerPlateExample
 {
-    public interface IFirstService : IApplicationService
+    public interface IOfficeService : IApplicationService
     {
-        Task<List<OfficeDto>> GetAll();
+        List<OfficeDto> GetAll();
+
+        OfficeDto Get(int id);
+
+        void Create(OfficeDto office);
     }
 }

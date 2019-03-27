@@ -1,24 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Security.Cryptography;
 using System.Text;
 using Abp.Domain.Entities;
 using Abp.Timing;
 
 namespace BoilerPlateExample.Models
 {
+    [Table("Offices")]
     /// <summary>
     /// 
     /// </summary>
     public class Office : Entity
     {
-        /// <summary>
-        /// Gets or sets the identifier.
-        /// </summary>
-        /// <value>
-        /// The identifier.
-        /// </value>
-        public long Id { get; set; }
-
         /// <summary>
         /// Gets or sets the description.
         /// </summary>
@@ -35,11 +30,5 @@ namespace BoilerPlateExample.Models
         /// </value>
         public List<Employee> Employees { get; set; } = new List<Employee>();
 
-        //public DateTime CreationTime { get; set; }
-
-        //public Office()
-        //{
-        //    CreationTime = Clock.Now;
-        //}
     }
 }

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BoilerPlateExample.Migrations
 {
     [DbContext(typeof(BoilerPlateExampleDbContext))]
-    [Migration("20190326105355_prva")]
-    partial class prva
+    [Migration("20190327143220_first")]
+    partial class first
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -23,11 +23,11 @@ namespace BoilerPlateExample.Migrations
 
             modelBuilder.Entity("BoilerPlateExample.Models.Device", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<long>("EmployeeId");
+                    b.Property<int>("EmployeeId");
 
                     b.Property<string>("Name");
 
@@ -40,13 +40,13 @@ namespace BoilerPlateExample.Migrations
 
             modelBuilder.Entity("BoilerPlateExample.Models.DeviceUsage", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<long?>("DeviceId");
+                    b.Property<int?>("DeviceId");
 
-                    b.Property<long?>("EmployeeId");
+                    b.Property<int?>("EmployeeId");
 
                     b.Property<DateTime>("From");
 
@@ -63,7 +63,7 @@ namespace BoilerPlateExample.Migrations
 
             modelBuilder.Entity("BoilerPlateExample.Models.Employee", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -71,7 +71,7 @@ namespace BoilerPlateExample.Migrations
 
                     b.Property<string>("LastName");
 
-                    b.Property<long>("OfficeId");
+                    b.Property<int>("OfficeId");
 
                     b.HasKey("Id");
 
@@ -82,7 +82,7 @@ namespace BoilerPlateExample.Migrations
 
             modelBuilder.Entity("BoilerPlateExample.Models.Office", b =>
                 {
-                    b.Property<long>("Id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
