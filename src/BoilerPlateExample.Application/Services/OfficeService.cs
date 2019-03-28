@@ -33,13 +33,24 @@ namespace BoilerPlateExample
             return ObjectMapper.Map<OfficeDto>(office);
         }
 
-        public void Create(OfficeDto office)
+        public void Create(OfficeDto dto)
         {
-            Office newOffice = ObjectMapper.Map<Office>(office);
+            Office office = ObjectMapper.Map<Office>(dto);
 
-            _officeRepository.Insert(newOffice);
+            _officeRepository.Insert(office);
 
         }
+
+        public void Update(int id, OfficeDto dto)
+        {
+
+        }
+
+        public void Delete(int id1)
+        {
+
+        }
+
         
     }
 }

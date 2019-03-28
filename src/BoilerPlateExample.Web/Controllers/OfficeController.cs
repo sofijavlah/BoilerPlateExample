@@ -29,15 +29,13 @@ namespace BoilerPlateExample.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetOffice()
+        public IActionResult GetOffice(int? id)
         {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult GetOffice(int id)
-        {
-            var office = _officeService.Get(id);
+            OfficeDto office = null;
+            if (id.HasValue)
+            {
+                office = _officeService.Get(id.Value);
+            }
 
             return View(office);
         }

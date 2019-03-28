@@ -6,13 +6,17 @@
     Layout = "_Layout";
 }
 
+@if (Model != null)
+{
+    @Html.TextBoxFor(x => x.Description)
+}
+else
+{
+    <form action="" method="get">
 
+        <label>Insert Id</label>
+        <input type="text" name="Id" placeholder="Id" />
+        <input type="submit" value="Get Office" />
 
-
-<form action="" method="get">
-
-    <label>Insert Id</label>
-    <input type="text" name="Id" placeholder="Id" />
-    <input type="submit" value="Get Office" />
-
-</form>
+    </form>
+}
