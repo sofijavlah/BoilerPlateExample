@@ -1,5 +1,6 @@
 ﻿using Abp.Application.Navigation;
 using Abp.Localization;
+using BoilerPlateExample.Models;
 
 namespace BoilerPlateExample.Web.Startup
 {
@@ -34,7 +35,7 @@ namespace BoilerPlateExample.Web.Startup
                         ).AddItem(
                         new MenuItemDefinition(
                             "Office",
-                            L("Office By Id"),
+                            L("By Id"),
                             url: "Office/GetOffice",
                             icon: "fa fa-offices"
                         )).AddItem(
@@ -46,11 +47,59 @@ namespace BoilerPlateExample.Web.Startup
                         )).AddItem(
                         new MenuItemDefinition(
                             "Office",
-                            L("Create Office"),
+                            L("Create"),
                             url: "Office/CreateOffice",
                             icon: "fa fa-offices"
+                        )).AddItem(
+                        new MenuItemDefinition(
+                            "Office",
+                            L("Delete"),
+                            url: "Office/DeleteOffice",
+                            icon: "fa fa-offices"
+                            )).AddItem(
+                        new MenuItemDefinition(
+                            "Office",
+                            L("Update"),
+                            url: "Office/UpdateOffice",
+                            icon: "fa fa-offices"
                         ))
-                    );
+                    ).AddItem(
+                    new MenuItemDefinition(
+                        "Employee",
+                        L("Employee"),
+                        url: "Employee",
+                        icon: "fa fa-employees"
+                    ).AddItem(
+                        new MenuItemDefinition(
+                            "Employee",
+                            L("By Id"),
+                            url: "Employee/GetEmployee",
+                            icon: "fa fa-employees"
+                        )).AddItem(
+                        new MenuItemDefinition(
+                            "Employee",
+                            L("Employee List"),
+                            url: "Employee/GetEmployees",
+                            icon: "fa fa-employees"
+                        )).AddItem(
+                        new MenuItemDefinition(
+                            "Employee",
+                            L("Create"),
+                            url: "Employee/CreateEmployee",
+                            icon: "fa fa-employees"
+                        )).AddItem(
+                        new MenuItemDefinition(
+                            "Employee",
+                            L("Delete"),
+                            url: "Employee/DeleteEmployee",
+                            icon: "fa fa-employees"
+                        )).AddItem(
+                        new MenuItemDefinition(
+                            "Employee",
+                            L("Update"),
+                            url: "Employee/UpdateEmployee",
+                            icon: "fa fa-employee"
+                        )));
         }
 
         private static ILocalizableString L(string name)

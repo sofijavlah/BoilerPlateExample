@@ -1,0 +1,39 @@
+﻿
+
+@using BoilerPlateExample.Dto
+@model BoilerPlateExample.Dto.Employee.EmployeePost
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+    SelectList list = (SelectList) ViewData["DropDown"];
+}
+
+<h2>title</h2>
+
+<form action="" method="post">
+        
+    
+        <label>Id:</label>
+        &nbsp;
+        <input type="text" name="Id" placeholder="Id" value="@Url.ActionContext.RouteData.Values["id"]"  />
+        <br />
+        <label>First Name:</label>
+        &nbsp;
+        <input type="text" name="FirstName" placeholder="First Name" value="@Model.FirstName" />
+        <br />
+        <label>Last Name:</label>
+        &nbsp;
+        <input type="text" name="LastName" placeholder="Last Name" value="@Model.LastName" />
+        <br />
+        <label>OfficeId:</label>
+        &nbsp;
+        @*<input type="text" name="OfficeId" placeholder="Id" value="@Model.OfficeId" />*@
+        <br />
+        @Html.DropDownListFor(x => x.OfficeId, list)
+
+
+        <input type="submit" value="Update Employee" />
+    </form>
+
+
+

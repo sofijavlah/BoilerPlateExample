@@ -1,0 +1,25 @@
+﻿@model BoilerPlateExample.Dto.Employee.EmployeeGet
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+@if (Model != null)
+{
+    @Html.TextBoxFor(x => x.FirstName)
+    @Html.TextBoxFor(x => x.LastName)
+    @Html.TextBoxFor(x => x.Description)
+}
+else
+{
+    <form action="" method="get">
+
+        <label>Insert Id</label>
+        &nbsp;
+        <input type="text" name="Id" placeholder="Id" />
+        &nbsp;
+        <input type="submit" value="Get Employee" />
+
+    </form>
+}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Application.Services.Dto;
 using Abp.Domain.Repositories;
 using BoilerPlateExample.Dto;
 using BoilerPlateExample.Models;
@@ -22,7 +23,7 @@ namespace BoilerPlateExample
         public List<OfficeDto> GetAll()
         {
             var offices = _officeRepository.GetAll();
-
+            
             return new List<OfficeDto>(ObjectMapper.Map<List<OfficeDto>>(offices));
         }
 
@@ -43,14 +44,16 @@ namespace BoilerPlateExample
 
         public void Update(int id, OfficeDto dto)
         {
+            var office = _officeRepository.Get(id);
 
+            ObjectMapper.Map(dto, office);
         }
 
-        public void Delete(int id1)
+        public void Delete(int id)
         {
+            var office = _officeRepository.FirstOrDefault(x => x.Id == id);
 
+            _officeRepository.Delete(office);
         }
-
-        
     }
 }

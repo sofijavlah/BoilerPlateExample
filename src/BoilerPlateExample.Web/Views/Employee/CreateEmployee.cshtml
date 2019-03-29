@@ -1,0 +1,21 @@
+﻿@model BoilerPlateExample.Dto.Employee.EmployeePost
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+
+<form action="" method="post">
+
+    <label>First Name</label> &nbsp; <input type="text" name="FirstName" placeholder="First Name" />
+    <br />
+    <label>Last Name</label> &nbsp; <input type="text" name="LastName" placeholder="Last Name" />
+    <br />
+    <label>Office Id</label> &nbsp; <input type="text" name="OfficeId" placeholder="Office Id" />
+    <br />
+    
+    <input type="submit" value="Create Employee" />
+
+</form>

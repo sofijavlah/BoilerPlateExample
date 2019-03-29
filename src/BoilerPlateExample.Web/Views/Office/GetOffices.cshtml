@@ -1,6 +1,4 @@
-﻿@using BoilerPlateExample.Models
-@using Microsoft.EntityFrameworkCore
-@model BoilerPlateExample.Dto.OfficeListDto
+﻿@model BoilerPlateExample.Dto.OfficeListDto
 
 @{
     ViewBag.Title = "title";
@@ -9,8 +7,12 @@
 
 @foreach (var office in Model.Offices)
 {
-    <h1>@office.Id</h1>
-    <h2>@office.Description</h2>
+    @office.Id 
+    <br/>
+    <input type="submit" value="Update Office" />
+    <br/>
+    @office.Description
+    <br/>
 }
 
 
