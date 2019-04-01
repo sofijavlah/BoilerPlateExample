@@ -1,21 +1,18 @@
 ﻿@model BoilerPlateExample.Dto.OfficeDto
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "Change Office Name";
 }
 
+<h3>@ViewBag.Title</h3>
 
 <form action="" method="post">
 
-    <label>Id:</label>
-    &nbsp;
-    <input type="text" name="Id" placeholder="Id" />
-    &nbsp;
+    @Html.HiddenFor(x => x.Id)
     <br />
-    <label>Name:</label>
+    @Html.LabelFor(x => x.Description, "Description:")
     &nbsp;
-    <input type="text" name="Description" placeholder="Description" />
+    @Html.EditorFor(x => x.Description)
     <br/>
     <input type="submit" value="Update Office" />
 

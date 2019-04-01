@@ -1,35 +1,30 @@
-﻿
-
-@using BoilerPlateExample.Dto
-@model BoilerPlateExample.Dto.Employee.EmployeePost
+﻿@model BoilerPlateExample.Dto.Employee.EmployeePost
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
-    SelectList list = (SelectList) ViewData["DropDown"];
+    ViewBag.Title = "Change Employee Details";
+    //SelectList list = (SelectList) ViewData["DropDown"];
+    var list = ViewBag.DropDown as SelectList;
 }
 
-<h2>title</h2>
+<h3>@ViewBag.Title</h3>
 
 <form action="" method="post">
         
     
-        <label>Id:</label>
-        &nbsp;
-        <input type="text" name="Id" placeholder="Id" value="@Url.ActionContext.RouteData.Values["id"]"  />
+        @*<input type="text" name="Id" hidden="hidden" placeholder="Id" value="@Url.ActionContext.RouteData.Values["id"]"  />*@
+        @Html.HiddenFor(x => x.Id)
         <br />
-        <label>First Name:</label>
+        @Html.LabelFor(x => x.FirstName, "First name:")
         &nbsp;
-        <input type="text" name="FirstName" placeholder="First Name" value="@Model.FirstName" />
+        @Html.EditorFor(x => x.FirstName)
         <br />
-        <label>Last Name:</label>
+        @Html.LabelFor(x => x.LastName, "Last name:")
         &nbsp;
-        <input type="text" name="LastName" placeholder="Last Name" value="@Model.LastName" />
+        @Html.EditorFor(x => x.LastName)
         <br />
-        <label>OfficeId:</label>
+        @Html.LabelFor(x => x.OfficeId, "Office:")
         &nbsp;
         @*<input type="text" name="OfficeId" placeholder="Id" value="@Model.OfficeId" />*@
-        <br />
-        @Html.DropDownListFor(x => x.OfficeId, list)
+        @Html.DropDownListFor(x => x.OfficeId, list, "-- Choose Office --")
 
 
         <input type="submit" value="Update Employee" />

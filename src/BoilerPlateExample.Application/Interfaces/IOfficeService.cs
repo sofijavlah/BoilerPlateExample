@@ -2,6 +2,8 @@
 using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using BoilerPlateExample.Dto;
+using BoilerPlateExample.Dto.Office;
+using BoilerPlateExample.Models;
 
 namespace BoilerPlateExample
 {
@@ -9,7 +11,9 @@ namespace BoilerPlateExample
     {
         List<OfficeDto> GetAll();
 
-        OfficeDto Get(int id);
+        OfficeEmployeeListDto Get(int id);
+
+        Office GetOfficeById(int id);
 
         void Create(OfficeDto office);
 

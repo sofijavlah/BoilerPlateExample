@@ -1,17 +1,16 @@
 ﻿@model BoilerPlateExample.Dto.OfficeDto
 
 @{
-    ViewBag.Title = "Create";
-    Layout = "_Layout";
+    ViewBag.Title = "Create new office";
 }
 
-<h2>CreateOffice</h2>
+<h3>@ViewBag.Title</h3>
 
 <form action="" method="post">
     
-    <label>Description</label>
-    <input type="text" name="Description" placeholder="Office Description"/>
-    
+    @Html.LabelFor(x => x.Description, "Description:")
+    @Html.EditorFor(x => x.Description)
+
     <input type="submit" value="Create Office" />
 
 </form>

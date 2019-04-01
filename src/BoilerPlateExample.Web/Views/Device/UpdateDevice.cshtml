@@ -1,0 +1,25 @@
+﻿@model BoilerPlateExample.Dto.Device.DevicePost
+
+@{
+    ViewBag.Title = "Change Device Details";
+    var list = ViewBag.DropDown as SelectList;
+}
+
+<h3>@ViewBag.Title</h3>
+
+<form action="" method="post">
+        
+    @Html.HiddenFor(x => x.Id)
+    <br />
+    @Html.LabelFor(x => x.Name, "Name:")
+    &nbsp;
+    @Html.EditorFor(x => x.Name)
+    <br />
+    @Html.LabelFor(x => x.EmployeeId, "Employee:")
+    &nbsp;
+    @Html.DropDownListFor(x => x.EmployeeId, list, "-- Choose Employee --")
+
+
+    <input type="submit" value="Update Device" />
+</form>
+

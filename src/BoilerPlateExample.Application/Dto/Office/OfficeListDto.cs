@@ -7,9 +7,9 @@ namespace BoilerPlateExample.Dto
 {
     public class OfficeListDto
     {
-        public IReadOnlyList<OfficeDto> Offices { get; }
+        public List<OfficeDto> Offices { get; }
 
-        public OfficeListDto(IReadOnlyList<OfficeDto> offices)
+        public OfficeListDto(List<OfficeDto> offices)
         {
             Offices = offices;
         }

@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
 using Abp.Domain.Repositories;
+using Abp.UI;
 using BoilerPlateExample.Dto;
+using BoilerPlateExample.Dto.Office;
 using BoilerPlateExample.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -27,11 +29,16 @@ namespace BoilerPlateExample
             return new List<OfficeDto>(ObjectMapper.Map<List<OfficeDto>>(offices));
         }
 
-        public OfficeDto Get(int id)
+        public OfficeEmployeeListDto Get(int id)
         {
-            var office = _officeRepository.Get(id);
+            var office = _officeRepository.GetAll().Include(x => x.Employees).FirstOrDefault(x => x.Id == id);
 
-            return ObjectMapper.Map<OfficeDto>(office);
+            return ObjectMapper.Map<OfficeEmployeeListDto>(office);
+        }
+
+        public Office GetOfficeById(int id)
+        {
+            return _officeRepository.Get(id);
         }
 
         public void Create(OfficeDto dto)
@@ -52,6 +59,11 @@ namespace BoilerPlateExample
         public void Delete(int id)
         {
             var office = _officeRepository.FirstOrDefault(x => x.Id == id);
+
+            if (office == null)
+            {
+                throw new UserFriendlyException("Bad id");
+            }
 
             _officeRepository.Delete(office);
         }

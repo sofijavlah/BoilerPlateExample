@@ -13,7 +13,7 @@ namespace BoilerPlateExample.Interfaces
 
         EmployeeGet Get(int id);
 
-        void Create(EmployeePost office);
+        void Create(EmployeePost dto);
 
         void Delete(int id);
 

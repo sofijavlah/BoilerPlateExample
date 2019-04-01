@@ -18,21 +18,21 @@ namespace BoilerPlateExample.Web.Startup
                         L("HomePage"),
                         url: "",
                         icon: "fa fa-home"
-                        )
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         PageNames.About,
                         L("About"),
                         url: "Home/About",
                         icon: "fa fa-info"
-                        )
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         "Office",
                         L("Office"),
                         url: "Office",
                         icon: "fa fa-offices"
-                        ).AddItem(
+                    ).AddItem(
                         new MenuItemDefinition(
                             "Office",
                             L("By Id"),
@@ -50,20 +50,8 @@ namespace BoilerPlateExample.Web.Startup
                             L("Create"),
                             url: "Office/CreateOffice",
                             icon: "fa fa-offices"
-                        )).AddItem(
-                        new MenuItemDefinition(
-                            "Office",
-                            L("Delete"),
-                            url: "Office/DeleteOffice",
-                            icon: "fa fa-offices"
-                            )).AddItem(
-                        new MenuItemDefinition(
-                            "Office",
-                            L("Update"),
-                            url: "Office/UpdateOffice",
-                            icon: "fa fa-offices"
                         ))
-                    ).AddItem(
+                ).AddItem(
                     new MenuItemDefinition(
                         "Employee",
                         L("Employee"),
@@ -87,18 +75,30 @@ namespace BoilerPlateExample.Web.Startup
                             L("Create"),
                             url: "Employee/CreateEmployee",
                             icon: "fa fa-employees"
+                        ))).AddItem(
+                    new MenuItemDefinition(
+                        "Device",
+                        L("Device"),
+                        url: "Device",
+                        icon: "fa fa-devices"
+                    ).AddItem(
+                        new MenuItemDefinition(
+                            "Device",
+                            L("By Id"),
+                            url: "Device/GetDevice",
+                            icon: "fa fa-devices"
                         )).AddItem(
                         new MenuItemDefinition(
-                            "Employee",
-                            L("Delete"),
-                            url: "Employee/DeleteEmployee",
-                            icon: "fa fa-employees"
+                            "Device",
+                            L("Device List"),
+                            url: "Device/GetDevices",
+                            icon: "fa fa-devices"
                         )).AddItem(
                         new MenuItemDefinition(
-                            "Employee",
-                            L("Update"),
-                            url: "Employee/UpdateEmployee",
-                            icon: "fa fa-employee"
+                            "Device",
+                            L("Create"),
+                            url: "Device/CreateDevice",
+                            icon: "fa fa-devices"
                         )));
         }
 

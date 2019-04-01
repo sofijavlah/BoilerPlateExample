@@ -1,0 +1,26 @@
+﻿@model BoilerPlateExample.Dto.Device.DeviceGet
+
+@{
+    ViewBag.Title = "Device details";
+}
+
+<h3>@ViewBag.Title</h3>
+
+@if (Model != null)
+{
+    @Html.TextBoxFor(x => x.Name)
+    @Html.TextBoxFor(x => x.FirstName)
+    @Html.TextBoxFor(x => x.LastName)
+}
+else
+{
+    <form action="" method="get">
+
+        @Html.LabelFor(x => x.Id, "Insert Id: ")
+        &nbsp;
+        @Html.EditorFor(x => x.Id)
+        &nbsp;
+        <input type="submit" value="Get Employee" />
+
+    </form>
+}

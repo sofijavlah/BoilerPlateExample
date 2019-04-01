@@ -1,19 +1,26 @@
-﻿@using BoilerPlateExample.Models
-@model BoilerPlateExample.Dto.Employee.EmployeeListDto
+﻿@model BoilerPlateExample.Dto.Employee.EmployeeListDto
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "List Of Employees";
 }
 
-<h2>title</h2>
+<h3>@ViewBag.Title</h3>
 
 @foreach (var employee in Model.Employees)
 {
-
-    <div>
-    @employee.FirstName @employee.LastName @employee.Description
-    <br/>
+<div>
+    @employee.FirstName @employee.LastName
+    <br />
+    @employee.Description
+    <br />
     @Html.ActionLink("Update", "UpdateEmployee", new { id = employee.Id })
-    </div>
+    &nbsp;
+    @using (Html.BeginForm("DeleteEmployee", "Employee", new { id = employee.Id }))
+    {<button type="submit" name="Delete" onclick="return confirm('Are you sure you want to delete this employee?')" value="Delete">Delete</button>}
+</div>
 }
+
+<br/>
+<h4>
+    @Html.ActionLink("Add New", "CreateEmployee")
+</h4>

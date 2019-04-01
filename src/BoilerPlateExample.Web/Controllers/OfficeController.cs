@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Abp.UI.Inputs;
 using BoilerPlateExample.Dto;
+using BoilerPlateExample.Dto.Office;
 using BoilerPlateExample.Models;
 using BoilerPlateExample.Web.Views;
 using Microsoft.AspNetCore.Http;
@@ -21,19 +22,20 @@ namespace BoilerPlateExample.Web.Controllers
             _officeService = officeService;
         }
 
+
+        //-------------- GET OFFICES/OFFICE -----------------//
         public IActionResult GetOffices()
         {
-            //var result =  _officeService.GetAll();
-            //var model = new List<OfficeDto> OfficeListDto(result);
-            //return View(model);
-            return Ok();
+            var result = _officeService.GetAll();
+            var model = new OfficeListDto(result);
+            return View(model);
         }
 
 
         [HttpGet]
         public IActionResult GetOffice(int? id)
         {
-            OfficeDto office = null;
+            OfficeEmployeeListDto office = null;
             if (id.HasValue)
             {
                 office = _officeService.Get(id.Value);
@@ -42,6 +44,8 @@ namespace BoilerPlateExample.Web.Controllers
             return View(office);
         }
 
+
+        //-------------- CREATE OFFICE -----------------//
         [HttpGet]
         public IActionResult CreateOffice()
         {
@@ -55,12 +59,8 @@ namespace BoilerPlateExample.Web.Controllers
             return RedirectToAction("GetOffices");
         }
 
-        [HttpGet]
-        public IActionResult DeleteOffice()
-        {
-            return View();
-        }
 
+        //-------------- DELETE OFFICE -----------------//
         [HttpPost]
         public IActionResult DeleteOffice(int id)
         {
@@ -69,10 +69,19 @@ namespace BoilerPlateExample.Web.Controllers
             return RedirectToAction("GetOffices");
         }
 
+
+        //-------------- UPDATE OFFICE -----------------//
         [HttpGet]
-        public IActionResult UpdateOffice()
+        public IActionResult UpdateOffice(int id)
         {
-            return View();
+            var office = _officeService.GetOfficeById(id);
+
+            OfficeDto newOfficeDto = new OfficeDto
+            {
+                Description = office.Description
+            };
+
+            return View(newOfficeDto);
         }
 
         [HttpPost]

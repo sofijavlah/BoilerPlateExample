@@ -1,21 +1,29 @@
 ﻿@model BoilerPlateExample.Dto.Employee.EmployeePost
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "Create new employee";
+    var list = ViewBag.DropDown as SelectList;
 }
 
-<h2>title</h2>
+<h3>@ViewBag.Title</h3>
 
 <form action="" method="post">
 
-    <label>First Name</label> &nbsp; <input type="text" name="FirstName" placeholder="First Name" />
+    @Html.HiddenFor(x => x.Id)
     <br />
-    <label>Last Name</label> &nbsp; <input type="text" name="LastName" placeholder="Last Name" />
+    @Html.LabelFor(x => x.FirstName, "First name:")
+    &nbsp;
+    @Html.EditorFor(x => x.FirstName)
     <br />
-    <label>Office Id</label> &nbsp; <input type="text" name="OfficeId" placeholder="Office Id" />
+    @Html.LabelFor(x => x.LastName, "Last name:")
+    &nbsp;
+    @Html.EditorFor(x => x.LastName)
     <br />
-    
+    @Html.LabelFor(x => x.OfficeId, "Office:")
+    &nbsp;
+    @Html.DropDownListFor(x => x.OfficeId, list, "-- Choose Office --")
+    <br />
+
     <input type="submit" value="Create Employee" />
 
 </form>

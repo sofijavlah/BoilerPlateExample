@@ -1,20 +1,30 @@
-﻿@model BoilerPlateExample.Dto.OfficeDto
+﻿@model BoilerPlateExample.Dto.Office.OfficeEmployeeListDto
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "Office Details";
 }
+
+<h3>@ViewBag.Title</h3>
 
 @if (Model != null)
 {
-    @Html.TextBoxFor(x => x.Description)
+    @Model.Description
+    <br />
+    foreach (var employee in @Model.Employees)
+    {
+        @employee.FirstName @employee.LastName
+        <br />
+    }
+
 }
 else
 {
     <form action="" method="get">
 
-        <label>Insert Id</label>
-        <input type="text" name="Id" placeholder="Id" />
+        @Html.LabelFor(x => x.Id)
+        &nbsp;
+        @Html.TextBoxFor(x => x.Id)
+        <br />
         <input type="submit" value="Get Office" />
 
     </form>

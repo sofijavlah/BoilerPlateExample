@@ -1,18 +1,29 @@
 ﻿@model BoilerPlateExample.Dto.OfficeListDto
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "List of offices";
 }
+
+<h3>@ViewBag.Title</h3>
 
 @foreach (var office in Model.Offices)
 {
-    @office.Id 
-    <br/>
-    <input type="submit" value="Update Office" />
-    <br/>
-    @office.Description
-    <br/>
+    <div>
+        @office.Id
+        <br />
+        @office.Description
+        <br />
+        @*@using (Html.BeginForm("UpdateOffice", "Office", new { id = office.Id })) {<button type="submit" name="Update" onclick=</button>}*@
+        @Html.ActionLink("Update", "UpdateOffice", new { id = office.Id })
+        &nbsp;
+        @using (Html.BeginForm("DeleteOffice", "Office", new { id = office.Id }))
+        {<button type="submit" name="Delete" onclick="return confirm('Are you sure you want to delete this office?')" value="Delete">Delete</button>}
+        <br />
+    </div>
 }
+
+<h4>
+    @Html.ActionLink("Add New", "CreateOffice")
+</h4>
 
 

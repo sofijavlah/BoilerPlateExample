@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Abp.Application.Services.Dto;
+﻿using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
-using BoilerPlateExample.Models;
 
 namespace BoilerPlateExample.Dto
 {
-    [AutoMap(typeof(Office))]
+    [AutoMap(typeof(Models.Office))]
     public class OfficeDto : EntityDto //(za mapiranje id-ja)
     {
         /// <summary>
