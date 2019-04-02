@@ -1,0 +1,18 @@
+﻿@model BoilerPlateExample.Dto.Device.DeviceUsageHistoryDto
+
+@{
+    ViewBag.Title = "History";
+}
+
+<h4>ViewBag.Title</h4>
+
+@foreach (var usage in @Model.UsageList)
+{
+    <div>
+        @usage.FirstName &nbsp;@usage.LastName
+        <br />
+        @usage.From &nbsp; @usage.To
+        <br/>
+        <br/>
+    </div>
+}

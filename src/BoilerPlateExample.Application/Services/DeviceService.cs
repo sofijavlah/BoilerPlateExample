@@ -4,6 +4,7 @@ using System.Linq;
 using Abp.Domain.Repositories;
 using Abp.UI;
 using BoilerPlateExample.Dto.Device;
+using BoilerPlateExample.Dto.DeviceUsage;
 using BoilerPlateExample.Dto.Employee;
 using BoilerPlateExample.Dto.Office;
 using BoilerPlateExample.Models;
@@ -58,6 +59,18 @@ namespace BoilerPlateExample.Services
             return device;
         }
 
+
+        public DeviceUsageHistoryDto GetDeviceHistory(int id)
+        {
+            var device = _deviceRepository.GetAll().Include(x => x.Employee).Include(x => x.UsageList).ThenInclude(x => x.Employee).ThenInclude(x => x.Devices)
+                .FirstOrDefault(x => x.Id == id);
+
+            if(device == null) throw new UserFriendlyException("Bad id");
+
+            var result = ObjectMapper.Map<DeviceUsageHistoryDto>(device);
+
+            return result;
+        }
 
         //---------------- CREATE ------------------//
         public void Create(DevicePost dto)

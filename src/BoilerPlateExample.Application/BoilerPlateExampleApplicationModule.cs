@@ -2,6 +2,7 @@
 using Abp.Modules;
 using Abp.Reflection.Extensions;
 using BoilerPlateExample.Dto.Device;
+using BoilerPlateExample.Dto.DeviceUsage;
 using BoilerPlateExample.Dto.Employee;
 using BoilerPlateExample.Models;
 
@@ -36,6 +37,17 @@ namespace BoilerPlateExample
                     .ForMember(dest => dest.FirstName, source => source.MapFrom(src => src.Employee.FirstName))
                     .ForMember(dest => dest.LastName, source => source.MapFrom(src => src.Employee.LastName))
                     .ForMember(dest => dest.Name, source => source.MapFrom(src => src.Name));
+
+                config.CreateMap<DeviceUsage, UsageDeviceDto>()
+                    .ForMember(dest => dest.Name, source => source.MapFrom(src => src.Device.Name))
+                    .ForMember(dest => dest.From, source => source.MapFrom(src => src.From))
+                    .ForMember(dest => dest.To, source => source.MapFrom(src => src.To));
+
+                config.CreateMap<DeviceUsage, UsageUserDto>()
+                    .ForMember(dest => dest.FirstName, source => source.MapFrom(src => src.Employee.FirstName))
+                    .ForMember(dest => dest.LastName, source => source.MapFrom(src => src.Employee.LastName))
+                    .ForMember(dest => dest.From, source => source.MapFrom(src => src.From))
+                    .ForMember(dest => dest.To, source => source.MapFrom(src => src.To));
             });
         }
 

@@ -8,14 +8,16 @@
 
 @foreach (var device in Model.Devices)
 {
-    <div>
-        @device.Name
-       <br />
-        @Html.ActionLink("Update", "UpdateDevice", new { id = device.Id })
-        &nbsp;
-        @using (Html.BeginForm("DeleteDevice", "Device", new { id = device.Id }))
-        {<button type="submit" name="Delete" onclick="return confirm('Are you sure you want to delete this device?')" value="Delete">Delete</button>}
-    </div>
+<div>
+    @device.Name
+    <br />
+    @Html.ActionLink("Update", "UpdateDevice", new { id = device.Id })
+    &nbsp;
+    @Html.ActionLink("Details", "GetDevice", new { id = device.Id })
+    <br/>
+    @using (Html.BeginForm("DeleteDevice", "Device", new { id = device.Id }))
+    {<button type="submit" name="Delete" onclick="return confirm('Are you sure you want to delete this device?')" value="Delete">Delete</button>}
+</div>
 }
 
 <br/>

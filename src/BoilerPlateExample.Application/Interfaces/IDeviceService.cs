@@ -11,6 +11,8 @@ namespace BoilerPlateExample.Dto.Office
 
         DeviceGet Get(int id);
 
+        DeviceUsageHistoryDto GetDeviceHistory(int id);
+
         void Create(DevicePost dto);
 
         void Delete(int id);

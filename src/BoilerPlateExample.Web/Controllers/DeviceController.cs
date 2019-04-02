@@ -43,6 +43,12 @@ namespace BoilerPlateExample.Web.Controllers
             return View(device);
         }
 
+        [HttpGet]
+        public IActionResult GetDeviceHistory(int id)
+        {
+            var result = _deviceService.GetDeviceHistory(id);
+            return View(result);
+        }
 
 
         //------------ DROP DOWN EMPLOYEES --------------//

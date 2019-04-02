@@ -86,7 +86,7 @@ namespace BoilerPlateExample.Web.Startup
                             "Device",
                             L("By Id"),
                             url: "Device/GetDevice",
-                            icon: "fa fa-devices"
+                            icon: "fa fa-facebook"
                         )).AddItem(
                         new MenuItemDefinition(
                             "Device",

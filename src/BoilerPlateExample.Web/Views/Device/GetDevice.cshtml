@@ -11,6 +11,8 @@
     @Html.TextBoxFor(x => x.Name)
     @Html.TextBoxFor(x => x.FirstName)
     @Html.TextBoxFor(x => x.LastName)
+
+    @Html.ActionLink("History", "GetDeviceHistory", new { id = Model.Id })
 }
 else
 {
@@ -20,7 +22,7 @@ else
         &nbsp;
         @Html.EditorFor(x => x.Id)
         &nbsp;
-        <input type="submit" value="Get Employee" />
+        <input type="submit" value="Get Device Details" />
 
     </form>
 }

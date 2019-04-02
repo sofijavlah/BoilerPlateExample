@@ -44,6 +44,11 @@ namespace BoilerPlateExample.Web.Controllers
             return View(employee);
         }
 
+        [HttpGet]
+        public IActionResult GetEmployeeHistory(int id)
+        {
+            throw new NotImplementedException();
+        }
 
         //-------------- DROP DOWN OFFICES ----------------//
         public SelectList SelectOffices()
@@ -115,5 +120,7 @@ namespace BoilerPlateExample.Web.Controllers
 
             return RedirectToAction("GetEmployees");
         }
+
+        
     }
 }

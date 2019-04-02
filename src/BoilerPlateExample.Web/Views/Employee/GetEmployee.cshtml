@@ -11,6 +11,9 @@
     @Html.TextBoxFor(x => x.FirstName)
     @Html.TextBoxFor(x => x.LastName)
     @Html.TextBoxFor(x => x.Description)
+
+    @using (Html.BeginForm("GetEmployeeHistory", "Employee", new { id = Model.Id }))
+    {<button type="submit" name="Usage History" value="Get">Get</button>}
 }
 else
 {

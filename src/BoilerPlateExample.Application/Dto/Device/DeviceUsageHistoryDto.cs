@@ -5,9 +5,8 @@ using BoilerPlateExample.Dto.DeviceUsage;
 
 namespace BoilerPlateExample.Dto.Device
 {
-    [AutoMap(typeof(Models.Device))]
     public class DeviceUsageHistoryDto : EntityDto
     {
-        List<UsageUserDto> UsageList = new List<UsageUserDto>();
+        public List<UsageUserDto> UsageList = new List<UsageUserDto>();
     }
 }
